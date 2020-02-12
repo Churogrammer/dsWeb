@@ -10,16 +10,18 @@
 	<style>
 
     div.left {
-        width: 25%;
+        width: 20%;
         float: left;
         height : 900px;
         background: #0ff;
+        border: 1px dashed #bcbcbc;
     }
     div.right {
-        width: 75%;
+        width:80%;
         float: right;
         height : 900px;
         background: #ff0;
+        border: 1px dashed #bcbcbc;
     }
     </style>
 </head>
@@ -53,10 +55,7 @@
 <div>
 	<div class="left">
         
-        <div style="display : inline-block;">
-        	<p>회원명</p>
-        	<input type="text" class="form-control" id="text">
-        	<button type="button" class="btn btn-light">Search</button>
+        <div >
         </div>
         
         
@@ -66,7 +65,10 @@
         
 	</div>
 	<div class="right">
-	
+		<div class="BasicInfo" style="display : inline-block; background : #f1c6d3; height : 200px;">
+			<input type="text" class="form-control" style = "" id="inpUserName">
+        	<button type="button" class="btn btn-light" id="btnUserSearch">Search</button>
+		</div>
 	
 	
 	
@@ -76,16 +78,6 @@
 
 
 
-
-</body>
-</html>
-
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
 
 </body>
 </html>
