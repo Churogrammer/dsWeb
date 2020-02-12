@@ -32,4 +32,12 @@ public class HomeController {
 		
 		return "home";
 	}
+	
+	public String mainP(Locale locale, Model model)
+	{
+		logger.info("This is Main Page!");
+
+		return "main";
+	}
+	
 }
