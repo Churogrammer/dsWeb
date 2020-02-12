@@ -33,6 +33,7 @@ public class HomeController {
 		return "home";
 	}
 	
+	@RequestMapping(value = "main", method = RequestMethod.GET)
 	public String mainP(Locale locale, Model model)
 	{
 		logger.info("This is Main Page!");
