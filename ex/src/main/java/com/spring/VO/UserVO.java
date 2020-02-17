@@ -21,5 +21,4 @@ public class UserVO {
 		public String joinDt;
 		public String lastVisitDt;
 		
-		
 }

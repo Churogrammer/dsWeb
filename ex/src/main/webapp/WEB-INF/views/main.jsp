@@ -61,9 +61,12 @@
 
 <div>
 	<div class="left">
-        
-        <div>
-        </div>
+       <div class="UserInfo">
+       		<p class="userDetail" id = "userTel">연락처</p>
+       		<p class="userDetail" id = "">연락처</p>
+       		<p class="userDetail">연락처</p>
+       		
+       </div>
         
         
         
